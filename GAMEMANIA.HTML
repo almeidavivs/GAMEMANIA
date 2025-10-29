@@ -3,23 +3,50 @@
 <head>
     <!--Título que aparece no navegador e configuração do teclado-->
     <title>GAMEMANIA</title>
+    <link rel="icon" type="image/png" href="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\minilogo.png">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-
 <!--Título com o nome da página que será uma imagem e outras funcionalidades 
 do cabeçalho-->
 <header>
-<h1>GAMEMANIA</h1>
+    <div class="logo">
+<img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\imagens\LOGO.png" alt="logotipo" width="300" heigth="550">
+    </div>
+    <div class="user">
+<img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\user.png" alt="usuário" width="30" heigth="50">
 <h5>USUÁRIO</h5>
+    </div>
+    <div class="fav">
+<img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\coracao.png" alt="favoritos" width="30" heigth="50">
 <h5>FAVORITOS</h5>
+    </div>
+    <div class="cart">
+<img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\shopping-cart.png" alt="carrinho de compras" width="30" heigth="50">
 <h5>CARRINHO</h5>
+    </div>
 
-<!--Aqui se inicia a barra horizontal em que temos o menu sanduíche e as opções clicáveis 
-ao lado direito-->
+<!--caixa de busca-->
+<form>
+    <input type="text" name="barra de pesquisa" placeholder="O que você está buscando?">
+        <button type="submit"><img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\search.png" alt="lupa para buscar" width="15" heigth="35"></button>
+</form>
+
+<!--MENU SANDUÍCHE-->
 <nav>
+    <div class="menu-sand" id="menu-sanduiche">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+    <!--Aqui se inicia a barra horizontal em que temos o menu sanduíche e as opções clicáveis 
+ao lado direito-->
+<nav class="barra">
 <ul>
 
 <li><a href="#computador">Computador</a></li>
@@ -31,23 +58,22 @@ ao lado direito-->
 </nav>
 
 </header>
-
 <!--Aqui será o carrossel-->
 <div>
     <div>
-        <img src="promopcgamer.png" alt="promoção pc gamer" width="600">
+        <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\promopcgamer.png" alt="promoção computador gamer" width="600">
     </div>
     <div>
-        <img src="promoblack.png" alt="black friday" width="600">
+        <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\promoblack.png" alt="black friday" width="600">
     </div>
     <div>
-        <img src="promopromo.png" alt="promoção" width="600">
+        <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\promopromo.png" alt="promoção" width="600">
     </div>
     <div>
-        <img src="promocamera.png" alt="promo camera" width="600">
+        <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\promocamera.png" alt="promoção camera" width="600">
     </div>
     <div>
-        <img src="promofone.png" alt="promo fone de ouvido" width="600">
+        <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\promofone.png" alt="promoção fone de ouvido" width="600">
     </div>
     <div>⚪ ⚪ ⚪ ⚪ ⚪</div>
 
@@ -61,34 +87,77 @@ As divs criam as categorias ou produtos.-->
 <section id="departamentos">
 <h3>DEPARTAMENTOS</h3>
 <div class="hardware">
-    <img src="hardware.png" alt="hardware">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\hardware.png" alt="hardware" width="300" heigth="550">
         <p>HARDWARE</p></div>
 <div class="perifericos">
-    <img src="perifericos.jpeg" alt="perifericos">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\perifericos.jpeg" alt="perifericos" width="300" heigth="550">
         <p>PERIFÉRICOS</p></div>
 <div class="computadores">
-    <img src="computador.jpeg" alt="computadores">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\computador.jpeg" alt="computadores" width="300" heigth="550">
         <p>COMPUTADORES</p></div>
 <div class="cameras e drones">
-    <img src="camera.jpeg" alt="cameras e drones">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\camera.jpeg" alt="cameras e drones" width="300" heigth="550">
         <p>CÂMERAS E DRONES</p></div>
 <div class="games">
-    <img src="videogame.jpeg" alt="games">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\videogame.jpeg" alt="games" width="300" heigth="550">
     <p>GAMES</p></div>
 <div class="tablets e ipads">
-    <img src="tablet.jpeg" alt="tablets e ipads">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\tablet.jpeg" alt="tablets e ipads" width="300" heigth="550">
         <p>TABLETS/IPADS</p></div>
 </section>
 
 <section id="destaques">
 <h3>DESTAQUES</h3>
-
-
-
+<div class="cadeira gamer">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\cadeiragamer.jpg" alt="cadeira gamer" width="300" heigth="550">
+        <p>CADEIRA GAMER</p></div>
+<div class="gabinete gamer">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\gabinetegamer.jpg" alt="gabinete gamer" width="300" heigth="550">
+        <p>GABINETE GAMER</p></div>
+<div class="kit mouse e teclado">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\kitmouseeteclado.jpg" alt="kit mouse e teclado" width="300" heigth="550">
+        <p>KIT MOUSE E TECLADO</p></div>
+<div class= "mesa para desktop">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\mesa.jpg" alt="mesa para computador" width="300" heigth="550">
+        <p>MESA PARA DESKTOP</p></div> 
+<div class="monitor gamer">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\monitorgamer.jpg" alt="monitor gamer" width="300" heigth="550">
+        <p>MONITOR GAMER</p></div>
+<div class="placa de video">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\placadevideo.jpg" alt="placa de vídeo" width="300" heigth="550">
+        <p>PLACA DE VÍDEO</p></div>
+<div class="placa mãe">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\placamae.jpg" alt="placa mãe" width="300" heigth="550">
+        <p>PLACA MÃE</p></div>
+<div class="ssd">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\ssd.jpg" alt="processador ssd" width="300" heigth="550">
+        <p>SSD</p></div>
+<br>
+<br>
 </section>
-
-
 </main>
+
+<footer>
+
+    <button>FALE CONOSCO</button>
+    <br>
+    <br>
+<div class="instagram">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\instagram.png" alt="logotipo instagram" width="30" heigth="50">
+</div>
+<div class="facebook">
+    <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\facebook.png" alt="logotipo facebook" width="30" heigth="50">
+</div>
+<div class="linkedin">
+    <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\linkedin.png" alt="logotipo linkedin" width="30" heigth="50">
+</div>
+<div class="twitter">
+    <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\twitter.png" alt="logotipo twitter" width="30" heigth="50">
+</div>
+<br>
+<br>
+<p><i>This page was created by Viviane Almeida and Rosicler Falcão.</i></p>
+</footer>
 </body>
 
 
