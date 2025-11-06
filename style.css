@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #73a3f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img{
+    height: 200px;
+    display: block;
+}
+
+.icones-superiores {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 0;
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.carrinho {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-color: #73a3f0 ;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: grey;
+}
+
+.fale-conosco {
+    background-color: red;
+    border-radius: 10px;
+
+}

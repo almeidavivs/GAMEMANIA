@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\minilogo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,9 +14,11 @@
 <!--Título com o nome da página que será uma imagem e outras funcionalidades 
 do cabeçalho-->
 <header>
+    <div class="header">
     <div class="logo">
 <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\imagens\LOGO.png" alt="logotipo" width="300" heigth="550">
     </div>
+    <div class="icones-superiores">
     <div class="user">
 <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\user.png" alt="usuário" width="30" heigth="50">
 <h5>USUÁRIO</h5>
@@ -24,13 +27,15 @@ do cabeçalho-->
 <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\coracao.png" alt="favoritos" width="30" heigth="50">
 <h5>FAVORITOS</h5>
     </div>
-    <div class="cart">
+    <div class="cart"><button class="carrinho">
 <img src="c:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\ICONES\shopping-cart.png" alt="carrinho de compras" width="30" heigth="50">
-<h5>CARRINHO</h5>
+<h5>CARRINHO</h5></button>
+    </div>
+    </div>
     </div>
 
 <!--caixa de busca-->
-<form>
+<form class="searchbox">
     <input type="text" name="barra de pesquisa" placeholder="O que você está buscando?">
         <button type="submit"><img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\search.png" alt="lupa para buscar" width="15" heigth="35"></button>
 </form>
@@ -61,10 +66,10 @@ ao lado direito-->
 
 <!--Essa é a parte do login-->
 <section class="login-newuser">
-    <div class="login" id="log-in">
+    <div class="login">
         <img src="C:\Users\VIVIANE\Documents\PROJETO GAMEMANIA\GAMEMANIA\assets\user2.png" alt="imagem para login" width="50" heigth="75">    
             <p><b>Já possui uma conta?</b></p>
-            <form class="email" id="email-box">
+            <form class="email">
                 <input type="text" name="digitar email" placeholder="E-mail">
             </form>
             <br>
