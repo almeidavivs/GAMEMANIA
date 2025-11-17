@@ -21,19 +21,93 @@ header {
     align-items: center;
     padding: 0;
 }
+.user {
+    display: flex;
+}
 
-.searchbox {
+.usuario {
+    display: flex;
+    font-size: large;
+    background-color: lightgreen;
+    justify-content: space-between;
+    justify-items: auto;
+    height: 70px;
+    width: 130px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fav {
+    display: flex;
+}
+
+.favoritos {
+    display: flex;
+    font-size: medium;
+    background-color: lightgreen;
+    gap: 12px;
+    justify-items: center;
+    height: 70px;
+    width: 130px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2px;
+    margin: 2px;
+}
+
+.favimg {
+    justify-items: auto;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+}
+
+.cart {
+    display: flex;
+}
+
+.carrinho {
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 2px;
+    width: 130px;
+    height: 70px;
+    align-items: center;
+    justify-items: auto;
+    justify-content: space-between;
+    background-color: lightgreen ;
+    font-size: large;
+    display: flex;
+    
+}
+
+.sbbtn {
+    border: none;
+    background-color: #73a3f0;
+}
+
+.searchboxx form{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-}
-.carrinho {
-    margin: 0px;
     padding: 0px;
-    border: none;
-    background-color: #73a3f0 ;
+    box-sizing: border-box;
+    width: 600px;
 }
+.searchboxx input[type=text] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: Arial;
+    border-radius: 30px;
+}
+
 
 
 ul {
@@ -60,8 +134,42 @@ ul li a:hover {
     background-color: grey;
 }
 
-.fale-conosco {
-    background-color: red;
-    border-radius: 10px;
+.departamentos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 24px;
+}
 
+.perifericos {
+    background-image: #73a3f0;
+}
+.destaques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.faleconosco {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+
+}
+
+.fale-conosco {
+background-color: red;
+border-radius: 10px;
+}
+
+.icones-inferiores {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2px;
+    
 }
